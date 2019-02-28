@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+
+<myportfolio>
+	<mycompetencies>
+		<competency in="HTML" value="good" />
+		<competency in="CSS" value="good" />
+		<competency in="JS" value="good" />
+		<competency in="Python" value="good" />
+		<competency in="Backbone" value="good" />
+		<competency in="Less" value="good" />
+		<competency in="Django" value="good" />
+		<competency in="React" value="normal" />
+	</mycompetencies>
+</myportfolio>
