@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE visits PUBLIC "ilya.obolensky" "https://kodaktor.ru/j/1a394e9">
+
+<visits>
+	<most-visited-ip>
+		<ip addr="192.168.0.1" frequency="150" />
+	</most-visited-ip>
+	<platform-visits>
+		<platform name="Windows" frequency="10" />
+		<platform name="macOS" frequency="150" />
+		<platform name="Linux" frequency="100" />
+		<platform name="iOS" frequency="200" />
+		<platform name="Android" frequency="500" />
+	</platform-visits>
+	<ips>
+		<ip addr="192.168.0.1" frequency="150" />
+		<ip addr="192.168.0.2" frequency="140" />
+		<ip addr="192.168.0.3" frequency="130" />
+		<ip addr="192.168.0.4" frequency="120" />
+		<ip addr="192.168.0.5" frequency="110" />
+	</ips>
+</visits>

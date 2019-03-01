@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT visits (most-visited-ip, platform-visits, ips)>
+<!ELEMENT most-visited-ip (ip)>
+<!ELEMENT platform-visits (platform+)>
+<!ELEMENT ips (ip, ip, ip, ip, ip)>
+<!ELEMENT ip (#PCDATA)>
+<!ELEMENT platform (#PCDATA)>
+
+<!ATTLIST ip addr CDATA #REQUIRED>
+<!ATTLIST ip frequency CDATA #REQUIRED>
+<!ATTLIST platform name (Windows| macOS| Linux| iOS| Android) #REQUIRED>
+<!ATTLIST platform frequency CDATA #REQUIRED>
