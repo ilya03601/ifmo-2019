@@ -1,4 +1,4 @@
-// https://kodaktor.ru/?!=func_69fc7
+// https://kodaktor.ru/func_69fc7
 const mixin = function () {
 	return this * this; 
 };
