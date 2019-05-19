@@ -35,14 +35,27 @@
     button {
         width: 180px;
         height: 100px;
-        background: none;
+        background: transparent;
         border: none;
         border-right: 1px solid #000;
         outline: none;
         cursor: pointer;
+        transition: background .15s;
 
         &:last-child {
             border-right: none;
+        }
+
+        &:hover {
+            background: rgba(255, 11, 0, 0.5);
+
+            img {
+                transform: scale(1.05);
+            }
+        }
+
+        img {
+            transition: transform .15s;
         }
     }
 }
