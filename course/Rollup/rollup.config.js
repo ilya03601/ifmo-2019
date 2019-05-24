@@ -1,4 +1,5 @@
 import lessModules from 'rollup-plugin-less-modules';
+import copy from 'rollup-plugin-copy'
 
 export default [{
     input: 'src/app.js',
@@ -7,8 +8,15 @@ export default [{
         format: 'esm'
     },
     plugins: [
+        // подключение less стилей
         lessModules({
             output: 'static/main.css'
-        }) // подключение less стилей
+        }),
+        copy({
+            targets: [
+                'src/svg'
+            ],
+            outputFolder: 'static'
+        })
     ]
 }];

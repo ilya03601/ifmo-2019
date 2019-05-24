@@ -4,6 +4,7 @@
     "express": "^4.17.0",
     "less": "^3.9.0",
     "rollup": "^1.12.3",
+    "rollup-plugin-copy": "^2.0.1",
     "rollup-plugin-less": "^1.1.2",
     "rollup-plugin-less-modules": "^0.1.11"
   },
