@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "chalk": "^2.4.2",
+    "express": "^4.17.0",
+    "less": "^3.9.0",
+    "parcel-plugin-asset-copier": "^1.0.0"
+  },
+  "scripts": {
+    "build": "parcel watch src/app.js --out-dir static --out-file main.js",
+    "start": "node dev/server.js"
+  },
+  "assetsPath": "src/assets"
+}

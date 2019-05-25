@@ -1,0 +1,61 @@
+@c: .Calculator;
+
+@{c} {
+    width: 600px;
+    height: 350px;
+    border: 1px solid #000;
+    margin: 56px auto;
+    background: rgba(137, 242, 219, .36);
+    padding: 0 30px;
+
+    input {
+        display: block;
+        width: 100%;
+        height: 46px;
+        padding: 11px 20px;
+        margin: 35px auto 30px;
+        background: #fff;
+        border: 1px solid #000;
+        font-size: 19px;
+        outline: none;
+    }
+
+    &-row {
+        display: flex;
+        border: 1px solid #000;
+        background: #fff;
+        border-bottom: none;
+        outline: none;
+
+        &:last-child {
+            border-bottom: 1px solid #000;
+        }
+    }
+
+    button {
+        width: 180px;
+        height: 100px;
+        background: transparent;
+        border: none;
+        border-right: 1px solid #000;
+        outline: none;
+        cursor: pointer;
+        transition: background .15s;
+
+        &:last-child {
+            border-right: none;
+        }
+
+        &:hover {
+            background: rgba(255, 11, 0, 0.5);
+
+            img {
+                transform: scale(1.05);
+            }
+        }
+
+        img {
+            transition: transform .15s;
+        }
+    }
+}
