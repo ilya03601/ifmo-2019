@@ -1,0 +1,13 @@
+.posts__item {
+    display: block;
+    background: #ececec;
+    padding: 10px 20px;
+    margin: 0 0 30px 0;
+    text-decoration: none;
+    color: #000000;
+    border-radius: 4px;
+}
+
+.posts__categories {
+    color: darkcyan;
+}
